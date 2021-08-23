@@ -20,8 +20,6 @@ packages:
   # the archive repo for more reliable package layering
   # https://github.com/coreos/fedora-coreos-tracker/issues/400
   - fedora-repos-archive
-  # Updates
-  - zincati
 
 etc-group-members: []
   # Add the docker group to /etc/group

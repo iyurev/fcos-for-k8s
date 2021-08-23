@@ -139,22 +139,12 @@ packages:
   - libvarlink-util
   # Minimal NFS client
   - nfs-utils-coreos
-  # Active Directory support
-  - adcli
   # Additional firewall support; we aren't including these in RHCOS or they
   # don't exist in RHEL
   - iptables-nft iptables-services
-  # WireGuard https://github.com/coreos/fedora-coreos-tracker/issues/362
-  - wireguard-tools
   # Storage
   - btrfs-progs
   - WALinuxAgent-udev
-  # Allow communication between sudo and SSSD
-  # for caching sudo rules by SSSD.
-  # https://github.com/coreos/fedora-coreos-tracker/issues/445
-  - libsss_sudo
-  # SSSD; we only ship a subset of the backends
-  - sssd-client sssd-ad sssd-ipa sssd-krb5 sssd-ldap
   # Used by admins interactively
   - attr
   - openssl
