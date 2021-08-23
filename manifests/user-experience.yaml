@@ -32,3 +32,6 @@ packages:
   - runc
   - skopeo
   - toolbox
+  - kubelet
+  - kubectl
+  - cri-o
