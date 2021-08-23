@@ -1,0 +1,12 @@
+ref: fedora/${basearch}/coreos/stable
+include: manifests/fedora-coreos.yaml
+
+releasever: "34"
+
+rojig:
+  license: MIT
+  name: fedora-coreos
+  summary: Fedora CoreOS stable
+
+add-commit-metadata:
+  fedora-coreos.stream: stable
